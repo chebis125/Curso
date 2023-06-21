@@ -5,10 +5,7 @@ public class Ejercicio {
         Opersona.setEdad(20);
         Opersona.setNombre("Sebastian Martinez");
         Opersona.setTelefono(315794741);
-
-        System.out.println(Opersona.getNombre() + " tiene " + Opersona.getEdad() + " años y su numero de telefono es: " + Opersona.getTelefono());
-
-
+        System.out.println("El se llama " + Opersona.getNombre() + " tiene " + Opersona.getEdad() + " años y su numero de telefono es: " + Opersona.getTelefono());
     }
 }
 
